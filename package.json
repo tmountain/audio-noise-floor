@@ -6,13 +6,15 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "ts:check": "tsc"
   },
   "dependencies": {
     "expo": "~50.0.6",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "expo-av": "~13.10.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

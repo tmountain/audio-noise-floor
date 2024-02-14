@@ -1,0 +1,9 @@
+Bucket URL:
+
+https://nt-audio-test.s3.us-east-2.amazonaws.com/word_memory.mp4
+https://nt-audio-test.s3.us-east-2.amazonaws.com/people-talking-busy-restaurant.mp3
+
+Copy to Bucket:
+
+$ aws s3 cp word_memory.mp4 s3://nt-audio-test/
+
